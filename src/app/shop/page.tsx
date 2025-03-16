@@ -13,11 +13,11 @@ export default function ShopPage() {
   const products = [
     {
       id: 1,
-      name: 'Himalayan Pink Salt',
-      description: 'Pure, hand-mined pink salt from the heart of the Himalayas.',
+      name: 'Pisyun Loon (Pahadi Salt)',
+      description: 'Traditional hand-ground flavored salt from Uttarakhand\'s mountain communities.',
       price: 12.99,
       image: '/images/products/himalayan-salt.png',
-      link: '/products/salt',
+      link: '/products/pisyun-loon',
       weight: '500g',
       origin: 'Almora, Uttarakhand'
     },
