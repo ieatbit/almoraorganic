@@ -87,9 +87,9 @@ export default function ShopPage() {
               
               <div className="p-6">
                 <div className="flex items-start justify-between mb-4">
-                  <div>
+                  <div className="flex-1 min-w-0 pr-4">
                     <Link href={product.link}>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2 group-hover:text-amber-600 transition-colors">
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2 group-hover:text-amber-600 transition-colors truncate">
                         {product.name}
                       </h2>
                     </Link>
@@ -98,12 +98,12 @@ export default function ShopPage() {
                       <span>{product.origin}</span>
                     </div>
                   </div>
-                  <span className="text-2xl font-bold text-amber-600">
+                  <span className="text-2xl font-bold text-amber-600 whitespace-nowrap">
                     ${product.price}
                   </span>
                 </div>
                 
-                <p className="text-gray-600 mb-6">
+                <p className="text-gray-600 mb-6 line-clamp-2">
                   {product.description}
                 </p>
                 
