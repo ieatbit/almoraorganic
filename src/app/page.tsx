@@ -3,9 +3,9 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="bg-gray-50 pt-9">
+    <main className="bg-gray-50 pt-9 min-h-screen flex flex-col">
       {/* Hero Section */}
-      <section className="relative h-[calc(70vh-2.25rem)] min-h-[450px]">
+      <section className="relative h-[calc(70vh-2.25rem)] min-h-[450px] flex-shrink-0">
         <Image
           src="https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg"
           alt="Himalayan Mountains"
@@ -29,10 +29,10 @@ export default function Home() {
       </section>
 
       {/* Products Section */}
-      <section className="py-12 bg-gray-50">
+      <section className="py-8 bg-gray-50 flex-grow">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-10">Our Products</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <h2 className="text-4xl font-bold text-center mb-8">Our Products</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Turmeric Card */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <div className="relative h-64">
@@ -105,22 +105,15 @@ export default function Home() {
       </section>
 
       {/* Our Story Section */}
-      <section className="py-12 bg-white">
+      <section className="py-8 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold text-gray-900 mb-8">
+          <h2 className="text-4xl font-bold text-gray-900 mb-6">
             Our Story
           </h2>
-          <div className="space-y-6 text-gray-600 text-xl">
-            <p>
-              At Almora Organic, we bring you the finest organic products from
-            </p>
-            <p>
-              the heart of the Himalayas. Our commitment to quality, sustainability,
-            </p>
-            <p>
-              and traditional practices ensures that you receive nature's best,
-            </p>
-            <p>
+          <div className="space-y-4 text-gray-600 text-xl">
+            <p className="leading-relaxed">
+              At Almora Organic, we bring you the finest organic products from the heart of the Himalayas. 
+              Our commitment to quality, sustainability, and traditional practices ensures that you receive nature's best, 
               untouched by modern processing methods.
             </p>
           </div>
@@ -128,9 +121,9 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="py-12 bg-gray-50">
+      <section className="py-8 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Add your features here */}
           </div>
         </div>
