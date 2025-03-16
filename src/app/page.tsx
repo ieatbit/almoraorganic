@@ -83,10 +83,9 @@ export default function Home() {
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <div className="relative h-64">
                 <Image
-                  src="/images/products/himalayan-salt.jpg"
-                  alt="Himalayan Rock Salt"
+                  src="/images/products/himalayan-salt.png"
+                  alt="Phadi Salt"
                   fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover"
                 />
               </div>

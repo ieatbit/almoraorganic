@@ -15,7 +15,7 @@ export default function ShopPage() {
       name: 'Himalayan Pink Salt',
       description: 'Pure, hand-mined pink salt from the heart of the Himalayas.',
       price: 12.99,
-      image: 'https://images.pexels.com/photos/6412519/pexels-photo-6412519.jpeg',
+      image: '/images/products/himalayan-salt.png',
       link: '/products/salt'
     },
     {
