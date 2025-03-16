@@ -4,7 +4,16 @@ import Image from 'next/image'
 
 export default function TurmericPage() {
   return (
-    <main className="container mx-auto px-4 py-8">
+    <main className="container mx-auto px-4">
+      <div className="text-center max-w-2xl mx-auto mb-12">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight">
+          Himalayan Turmeric
+        </h1>
+        <p className="text-xl text-gray-600 mt-1">
+          Premium organic turmeric sourced from the foothills of the Himalayas
+        </p>
+      </div>
+
       <div className="relative h-[600px] w-full rounded-2xl overflow-hidden">
         <Image
           src="https://images.pexels.com/photos/6220709/pexels-photo-6220709.jpeg"
@@ -16,7 +25,6 @@ export default function TurmericPage() {
         />
       </div>
       <div className="mt-8">
-        <h1 className="text-4xl font-bold mb-4">Himalayan Turmeric</h1>
         <p className="text-gray-600 mb-4">
           Our premium Himalayan turmeric is carefully sourced from the foothills of the Himalayas. 
           Known for its high curcumin content and exceptional quality, this turmeric powder adds 
