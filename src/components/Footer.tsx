@@ -73,8 +73,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/products/salt" className="hover:text-amber-500 transition-colors">
-                  Rock Salt
+                <Link href="/products/pisyun-loon" className="hover:text-amber-500 transition-colors">
+                  Pisyun Loon (Pahadi Salt)
                 </Link>
               </li>
             </ul>
