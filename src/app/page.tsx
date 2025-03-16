@@ -3,9 +3,9 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="bg-gray-50 h-[calc(100vh-2.25rem)] mt-9 overflow-hidden">
+    <main className="bg-gray-50">
       {/* Hero Section */}
-      <section className="relative h-full">
+      <section className="relative h-[calc(100vh-2.25rem)] mt-[2.25rem]">
         <Image
           src="https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg"
           alt="Himalayan Mountains"
