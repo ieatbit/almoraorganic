@@ -65,9 +65,6 @@ export default function Header() {
             <Link href="/about" className="text-gray-600 hover:text-amber-600 transition-colors text-base">
               About
             </Link>
-            <Link href="/blog" className="text-gray-600 hover:text-amber-600 transition-colors text-base">
-              Blog
-            </Link>
             <Link href="/contact" className="text-gray-600 hover:text-amber-600 transition-colors text-base">
               Contact
             </Link>
@@ -167,13 +164,6 @@ export default function Header() {
                   onClick={() => setIsMenuOpen(false)}
                 >
                   About
-                </Link>
-                <Link 
-                  href="/blog" 
-                  className="text-gray-600 hover:text-amber-600 transition-colors px-4 py-0.5 text-base"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Blog
                 </Link>
                 <Link 
                   href="/contact" 
