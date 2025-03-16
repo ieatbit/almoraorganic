@@ -26,7 +26,7 @@ export default function ShopPage() {
       name: 'Wild Forest Honey',
       description: 'Raw, unfiltered honey harvested from the Himalayan forests.',
       price: 24.99,
-      image: '/images/products/honey.png',
+      image: 'https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg',
       link: '/products/honey',
       weight: '350g',
       origin: 'Kumaon Region'
@@ -36,7 +36,7 @@ export default function ShopPage() {
       name: 'Organic Turmeric',
       description: 'Premium organic turmeric powder from the foothills of the Himalayas.',
       price: 15.99,
-      image: '/images/products/turmeric.png',
+      image: 'https://images.pexels.com/photos/6220709/pexels-photo-6220709.jpeg',
       link: '/products/turmeric',
       weight: '250g',
       origin: 'Almora Valley'
