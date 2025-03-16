@@ -3,9 +3,9 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-gray-50">
       {/* Hero Section */}
-      <section className="relative h-[80vh] min-h-[600px]">
+      <section className="relative h-[70vh] min-h-[500px]">
         <Image
           src="https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg"
           alt="Himalayan Mountains"
@@ -16,8 +16,8 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <div className="text-center text-white">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">Pure Himalayan Goodness</h1>
-            <p className="text-xl md:text-2xl mb-8">Discover the authentic taste of the Himalayas</p>
+            <h1 className="text-5xl md:text-6xl font-bold mb-4">Pure Himalayan Goodness</h1>
+            <p className="text-xl md:text-2xl mb-6">Discover the authentic taste of the Himalayas</p>
             <Link 
               href="/products" 
               className="bg-amber-500 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-amber-600 transition-colors"
@@ -29,9 +29,9 @@ export default function Home() {
       </section>
 
       {/* Products Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12">Our Products</h2>
+          <h2 className="text-4xl font-bold text-center mb-10">Our Products</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Turmeric Card */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
@@ -105,9 +105,9 @@ export default function Home() {
       </section>
 
       {/* Our Story Section */}
-      <section className="py-16 bg-white">
+      <section className="py-12 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold text-gray-900 mb-12">
+          <h2 className="text-4xl font-bold text-gray-900 mb-8">
             Our Story
           </h2>
           <div className="space-y-6 text-gray-600 text-xl">
@@ -128,7 +128,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Add your features here */}
