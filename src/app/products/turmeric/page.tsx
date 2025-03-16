@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function TurmericPage() {
   return (
@@ -13,6 +14,12 @@ export default function TurmericPage() {
           <p className="text-xl text-gray-600 mt-0">
             Premium organic turmeric sourced from the foothills of the Himalayas
           </p>
+          <Link 
+            href="/contact"
+            className="inline-flex items-center px-6 py-3 rounded-lg bg-amber-600 text-white hover:bg-amber-700 transition-all duration-300 mt-6"
+          >
+            Contact for Price
+          </Link>
         </div>
 
         <div className="relative h-[600px] w-full rounded-2xl overflow-hidden">

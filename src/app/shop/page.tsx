@@ -15,7 +15,6 @@ export default function ShopPage() {
       id: 1,
       name: 'Pisyun Loon (Pahadi Salt)',
       description: 'Traditional hand-ground flavored salt from Uttarakhand\'s mountain communities.',
-      price: 12.99,
       image: '/images/products/himalayan-salt.png',
       link: '/products/pisyun-loon',
       weight: '500g',
@@ -25,7 +24,6 @@ export default function ShopPage() {
       id: 2,
       name: 'Wild Forest Honey',
       description: 'Raw, unfiltered honey harvested from the Himalayan forests.',
-      price: 24.99,
       image: 'https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg',
       link: '/products/honey',
       weight: '350g',
@@ -35,7 +33,6 @@ export default function ShopPage() {
       id: 3,
       name: 'Organic Turmeric',
       description: 'Premium organic turmeric powder from the foothills of the Himalayas.',
-      price: 15.99,
       image: 'https://images.pexels.com/photos/6220709/pexels-photo-6220709.jpeg',
       link: '/products/turmeric',
       weight: '250g',
@@ -98,9 +95,6 @@ export default function ShopPage() {
                       <span>{product.origin}</span>
                     </div>
                   </div>
-                  <span className="text-2xl font-bold text-amber-600 whitespace-nowrap">
-                    ${product.price}
-                  </span>
                 </div>
                 
                 <p className="text-gray-600 mb-6 line-clamp-2">
@@ -116,17 +110,12 @@ export default function ShopPage() {
                     <ArrowRightIcon className="w-4 h-4 ml-2 transform group-hover/link:translate-x-1 transition-transform" />
                   </Link>
                   
-                  <button
-                    onClick={() => handleAddToCart(product)}
-                    className={`inline-flex items-center px-4 py-2 rounded-lg transition-all duration-300 ${
-                      addedToCart === product.id
-                        ? 'bg-green-600 text-white'
-                        : 'bg-amber-600 text-white hover:bg-amber-700'
-                    }`}
+                  <Link
+                    href="/contact"
+                    className="inline-flex items-center px-4 py-2 rounded-lg bg-amber-600 text-white hover:bg-amber-700 transition-all duration-300"
                   >
-                    <ShoppingBagIcon className="w-5 h-5 mr-2" />
-                    {addedToCart === product.id ? 'Added!' : 'Add to Cart'}
-                  </button>
+                    Contact for Price
+                  </Link>
                 </div>
               </div>
             </div>
