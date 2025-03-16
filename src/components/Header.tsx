@@ -9,7 +9,7 @@ export default function Header() {
   const { totalItems } = useCart()
 
   return (
-    <header className="fixed w-full z-50 bg-white/80 backdrop-blur-md shadow-sm">
+    <header className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-9">
           {/* Logo */}
