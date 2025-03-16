@@ -84,16 +84,16 @@ export default function Home() {
               <div className="relative h-64">
                 <Image
                   src="/images/products/himalayan-salt.png"
-                  alt="Phadi Salt"
+                  alt="Pisyun Loon"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-2">Himalayan Rock Salt</h3>
-                <p className="text-gray-600 mb-4">Mineral-rich pink salt from ancient sea deposits.</p>
+                <h3 className="text-2xl font-bold mb-2">Pisyun Loon (Pahadi Salt)</h3>
+                <p className="text-gray-600 mb-4">Traditional hand-ground flavored salt from Uttarakhand's mountain communities.</p>
                 <Link 
-                  href="/products/salt"
+                  href="/products/pisyun-loon"
                   className="text-amber-600 font-semibold hover:text-amber-700"
                 >
                   Learn more →
