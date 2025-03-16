@@ -8,9 +8,9 @@ export default function BlogPage() {
   const blogPosts = [
     {
       id: 1,
-      title: 'The Ancient Art of Himalayan Salt Mining',
-      excerpt: 'Discover the traditional methods of extracting pink salt from the heart of the Himalayas, passed down through generations.',
-      image: '/images/products/himalayan-salt.jpg',
+      title: 'The Ancient Art of Pisyun Loon: Traditional Pahadi Salt',
+      excerpt: 'Discover the time-honored tradition of hand-ground flavored salt from Uttarakhand, where generations of mountain communities have perfected this unique culinary heritage.',
+      image: '/images/products/himalayan-salt.png',
       category: 'Heritage',
       date: 'March 15, 2024',
       featured: true,
